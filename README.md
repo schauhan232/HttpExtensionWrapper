@@ -10,7 +10,8 @@ Example  of To use for HttpGet
 Example of HttpPut
    * `_httpClient.Put<YourRequestClass>("CallingApiEndPointAddress"", instanceOfYourRequestClass)`
 
-There's support of Get,Post, Put and Delete. Please comment if you want to extend it
+There's support of **Get**,**Post**, **Put** and **Delete**. 
+Please comment/generate PR if you want to extend it, or you find any issues. :)
 
 ---------------
 
