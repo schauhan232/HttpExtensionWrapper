@@ -4,11 +4,11 @@
 
 ---------------
 Example  of To use for HttpGet
-   `_httpClient.Get<YourResponseClass>("CallingApiEndPointAddress")`
-`    _httpClient.Get<YourRequestClass, YourResponseClass>("CallingApiEndPointAddress", instanceOfYourRequestClass)`
+   * `_httpClient.Get<YourResponseClass>("CallingApiEndPointAddress")`
+   * `_httpClient.Get<YourRequestClass, YourResponseClass>("CallingApiEndPointAddress", instanceOfYourRequestClass)`
 
 Example of HttpPut
-`_httpClient.Put<YourRequestClass>("CallingApiEndPointAddress"", instanceOfYourRequestClass)`
+   * `_httpClient.Put<YourRequestClass>("CallingApiEndPointAddress"", instanceOfYourRequestClass)`
 
 There's support of Get,Post, Put and Delete. Please comment if you want to extend it
 
